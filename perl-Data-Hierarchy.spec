@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Hierarchy
+%define		pdir	Data
+%define		pnam	Hierarchy
 Summary:	Data::Hierarchy - handle data in a hierarchical structure
 Summary(pl):	Data::Hierarchy - obs³uga danych w strukturze hierarchicznej
 Name:		perl-Data-Hierarchy

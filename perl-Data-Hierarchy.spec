@@ -15,7 +15,6 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9880956f651699f33833c47736c69ced
-URL:		http://www.geocities.com/easydatabase/
 BuildRequires:	perl-Clone
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13

@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Hierarchy
-Summary:	Data::Hierarchy - Handle data in a hierarchical structure
+Summary:	Data::Hierarchy - handle data in a hierarchical structure
 Summary(pl):	Data::Hierarchy - obs³uga danych w strukturze hierarchicznej
 Name:		perl-Data-Hierarchy
 Version:	0.18

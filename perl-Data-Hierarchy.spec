@@ -8,16 +8,20 @@
 Summary:	Data::Hierarchy - handle data in a hierarchical structure
 Summary(pl):	Data::Hierarchy - obs³uga danych w strukturze hierarchicznej
 Name:		perl-Data-Hierarchy
-Version:	0.21
+Version:	0.30
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f6403ea4c7d9262f0140326301019931
+# Source0-md5:	58a7a1a8adaa108edd21e61d078665b9
+URL:		http://search.cpan.org/dist/Data-Hierarchy/
 BuildRequires:	perl-Clone
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Test-Exception
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

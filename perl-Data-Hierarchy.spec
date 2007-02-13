@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Hierarchy
 Summary:	Data::Hierarchy - handle data in a hierarchical structure
-Summary(pl.UTF-8):   Data::Hierarchy - obsługa danych w strukturze hierarchicznej
+Summary(pl.UTF-8):	Data::Hierarchy - obsługa danych w strukturze hierarchicznej
 Name:		perl-Data-Hierarchy
 Version:	0.30
 Release:	1
